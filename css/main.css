@@ -40,7 +40,7 @@ nav .logo img {
 }
 nav ul {
   margin: 0px;
-  margin-top: 8px;
+  margin-top: 12px;
   padding: 0px;
   text-align: right;
 }
@@ -88,4 +88,11 @@ nav ul li a:hover:before {
 nav ul li a:hover:after {
   width: 100%;
   background-color: #060a0f;
+}
+
+#slider {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0%);
+          clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0%);
 }
